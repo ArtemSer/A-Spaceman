@@ -195,7 +195,8 @@ footer {
 }
 
 .nav-footer a:hover {
-    color: #1eadef
+    color: #000000;
+    text-decoration: underline;
 }
 
 header {
@@ -209,7 +210,15 @@ footer p {
 .credits {
     color: #e7e7e7;
     font-weight: 100;
-    margin: 7px 0
+    margin: 7px 0;
+    transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -o-transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out
+}
+
+.credits:hover {
+    color: #999999;
 }
 
 .navbar-brand-wrapper {
