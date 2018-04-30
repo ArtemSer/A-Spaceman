@@ -100,7 +100,7 @@ p > a:hover {
 }
 
 .navbar-nav > li > a:hover {
-    background: none;
+    background-color: #ffffff ;
     color: #000000;
 }
 
