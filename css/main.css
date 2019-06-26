@@ -6,7 +6,7 @@ html {
     transition: all .25s ease-in-out;
     -moz-transition: all .25s ease-in-out;
     -o-transition: all .25s ease-in-out;
-    -webkit-transition: all .25s ease-in-out
+    -webkit-transition: all .25s ease-in-out;
 }
 
 body {
@@ -26,7 +26,7 @@ h1, h2, h3, p {
 }
 
 p {
-    font-size: 0.95em;
+    font-size: 21px;
 }
 
 a {
@@ -120,17 +120,19 @@ p > a:hover {
 }
 
 .intro span {
-    font-weight: 100
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 /* Grid List  */
 .grid-list-wrapper {
-    margin: 0 0 4em
+    margin: 0 0 4em;
 }
 
 .grid-list {
     background: #fff;
-    margin: 0 0 3em
+    /* margin: 0 0 3em; */
+    /* padding: 0; */
 }
 
 .grid-list img {
@@ -208,13 +210,14 @@ footer p {
 }
 
 .credits {
-    color: #e7e7e7;
-    font-weight: 100;
+    color: #999999;
+    font-weight: 400;
     margin: 7px 0;
+    font-size: 14px;
     transition: color .25s ease-in-out;
     -moz-transition: color .25s ease-in-out;
     -o-transition: color .25s ease-in-out;
-    -webkit-transition: color .25s ease-in-out
+    -webkit-transition: color .25s ease-in-out;
 }
 
 .credits:hover {
